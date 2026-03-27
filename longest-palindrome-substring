@@ -29,15 +29,3 @@ string longestPalindrome(string s) {
 
     return result;
 }
-
-int main() {
-    string s;
-    cout << "Enter string: ";
-    cin >> s;
-
-    string ans = longestPalindrome(s);
-
-    cout << "Longest Palindromic Substring: " << ans << endl;
-
-    return 0;
-}
